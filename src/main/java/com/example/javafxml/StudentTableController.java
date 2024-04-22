@@ -23,7 +23,7 @@ public class StudentTableController implements Initializable {
             StudentDao dao = new StudentDao();
             studentsList = (ObservableList<Student>) dao.getAllStudents();
 
-        } catch (SQLException e) {
+        } catch (SQLException e)
             throw new RuntimeException(e);
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
