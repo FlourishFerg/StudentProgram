@@ -20,7 +20,7 @@ public class StudentDao {
         statement.setString(3, student.getEmail());
         statement.setString(4, student.getCourse());
         statement.setInt(5, student.getAge());
-        statement.execute();
+        statement.execute()
     }
 
     public List<Student> getAllStudents() throws SQLException {
