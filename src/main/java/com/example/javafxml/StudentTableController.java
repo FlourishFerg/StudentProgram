@@ -19,7 +19,7 @@ public class StudentTableController implements Initializable{
     public void initialize(URL location, ResourceBundle resources) {
         ObservableList<Student> studentsList;
 
-        try
+        try{
             StudentDao dao = new StudentDao();
             studentsList = (ObservableList<Student>) dao.getAllStudents();
 
