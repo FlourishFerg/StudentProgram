@@ -17,7 +17,7 @@ public class StudentTableController implements Initializable{
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        ObservableList<Student> studentsList;
+        ObservableList<Student> studentsList
 
         try{
             StudentDao dao = new StudentDao();
