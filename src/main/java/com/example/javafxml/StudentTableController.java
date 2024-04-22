@@ -26,7 +26,7 @@ public class StudentTableController implements Initializable{
         } catch (SQLException e){
             throw new RuntimeException(e);
         } catch (ClassNotFoundException e) {
-            throw new RuntimeException(e)
+            throw new RuntimeException(e);
         }
 
         TableColumn<Student, String> FirstNameColumn = new TableColumn<>();
