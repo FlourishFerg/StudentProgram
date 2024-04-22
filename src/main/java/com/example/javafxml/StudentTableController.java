@@ -13,7 +13,7 @@ import java.util.ResourceBundle;
 
 public class StudentTableController implements Initializable{
     @FXML
-    TableView<Student> studentTable
+    TableView<Student> studentTable;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
